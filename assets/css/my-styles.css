@@ -1,0 +1,3532 @@
+
+body {
+    height: 80px;
+    left: 5.07%;
+    right: 5.07%;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+*{margin: 0}
+header {
+    grid-area: header;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    height: 80px;
+    width: 2000px;
+    background-color: #b8c4d9;
+}
+
+.photo {
+    position: absolute;
+    left: 73px;
+    top: 5px;
+}
+
+
+.nav1 {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 600px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav1:hover{
+    color: #95d9cc;
+}
+.nav2 {
+    position: absolute;
+    height: 17px;
+    left: 790px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav2:hover{
+    color: #95d9cc;
+}
+.nav-vector {
+    position: absolute;
+    left: 900px;
+    top: 30px;
+    bottom: 25%;
+}
+
+
+.nav3 {
+    position: absolute;
+    width: 51px;
+    height: 17px;
+    left: 950px;
+    top: 25px;
+    font-family: 'Inter',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav3:hover{
+    color: #95d9cc;
+}
+
+
+
+.nav4 {
+    position: absolute;
+    width: 71px;
+    height: 17px;
+    left: 1050px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav4:hover {
+    color: #95d9cc;
+}
+
+.sfd {
+    position: absolute;
+    top: 5px;
+    left: 1600px;
+    font-size: 19px;
+}
+
+
+.sfd2 {
+    position: absolute;
+    top: 5px;
+    left: 1700px;
+    font-size: 19px;
+}
+.photo:hover img {
+    transform: scale(1.1);
+}
+img {
+    transition: transform 0.5s;
+}
+
+.sfd :hover {
+    color: #95d9cc;
+    transition: 0.3s;
+}
+.sfd2 :hover {
+    color: #95d9cc;
+    transition: 0.3s;
+}
+.section1 {
+    position: absolute;
+    position: absolute;
+    height: 550px;
+    width: 1294px;
+    top: 108px;
+    left: 73px;
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.section1-title {
+    position: absolute;
+    height: 140px;
+    width: 588px;
+    top: 126px;
+    left: 56px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+}
+.section1-text {
+    position: absolute;
+    height: 39px;
+    width: 565px;
+    top: 304px;
+    left: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.section1-btn {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    left: 56px;
+    top: 373px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background: #DCE5E2;
+}
+.section1-btn-text {
+    position: absolute;
+    height: 22px;
+    width: 64px;
+    left: 53px;
+    top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.right{
+    position: absolute;
+    top: 265px;
+    left: 1263px;
+}
+.left{
+    position: absolute;
+    top: 265px;
+    left: 19px;
+}
+.mySwiper {
+    position: absolute;
+    height: 550px;
+    width: 1294px;
+    top: 108px;
+    left: 73px;
+    right: 73px;
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.image-slider {
+    position: absolute;
+    width: 647px;
+    height:700px;
+    top:60px;
+    left: 600px;
+}
+.image-slider2 {
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 80px;
+    left:55px;
+}
+.image-slider3 {
+    position: absolute;
+    width: 647px;
+    height: 500px;
+    top:60px;
+    left: 600px;
+}
+.section2-title {
+    position: absolute;
+    height: 140px;
+    width: 588px;
+    top: 126px;
+    right: 56px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+}
+.section2-text {
+    position: absolute;
+    height: 39px;
+    width: 565px;
+    top: 304px;
+    right: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.text-title{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
+    position: absolute;
+    width: 780px;
+    height: 53px;
+    left: 600px;
+    top: 680px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text-text{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
+    position: absolute;
+    width: 780px;
+    height: 53px;
+    left: 600px;
+    top: 750px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.macbook{
+    position: absolute;
+    height: 377px;
+    left: 42px;
+    right: 97px;
+    top: 0;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.mac{
+    position: absolute;
+    height: 472px;
+    width: 639px;
+    left: 273px;
+    right:728px;
+    top: 884px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.title1{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    right: 42px;
+    left: 537px;
+    bottom: 76px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text1{
+    position: absolute;
+    width: 192px;
+    height: 77px;
+    right: 42px;
+    left: 405px;
+    bottom: 0px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.iphone{
+    position: absolute;
+    height: 792px;
+    width: 312px;
+    left: 928px;
+    right: 400px;
+    top: 884px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.iphone1{
+    position: absolute;
+    height: 367px;
+    left: 5.14%;
+    right: -35.15%;
+    top: calc(50% - 367px/2 - 68.49px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title2{
+    position: absolute;
+    width: 56px;
+    height: 20px;
+    left: calc(50% - 56px/2 + 0.25px);
+    top: 552px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text2{
+    position: absolute;
+    width: 250px;
+    height: 77px;
+    left: calc(50% - 250px/2 + 0.25px);
+    top: 571px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.tablet{
+    position: absolute;
+    height: 792px;
+    width: 312px;
+    left: 1256px;
+    right: 72px;
+    top: 884px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.ipad{
+    position: absolute;
+    height: 426px;
+    left: 0;
+    right: 300px;
+    top: calc(50% - 425px/2 + 68.51px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title3{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    left: calc(50% - 47px/2 + 0.25px);
+    top: 114px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text3{
+    position: absolute;
+    width: 233px;
+    height: 77px;
+    left: calc(50% - 233px/2 + 0.25px);
+    top: 133px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.clock{
+    position: absolute;
+    height: 270px;
+    width: 639px;
+    left: 273px;
+    right:728px;
+    top: 1400px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.watch{
+    position: absolute;
+    width: 381px;
+    height: 270px;
+    right: 216px;
+    left: 42px;
+    top: calc(50% - 270px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title4{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    right: 42px;
+    left: 550px;
+    bottom: 75.5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text4{
+    position: absolute;
+    width: 128px;
+    height: 77px;
+    right: 42px;
+    left: 469px;
+    bottom: -0.5px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: right;
+
+    color: #000000;
+
+}
+.text-title2{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
+    position: absolute;
+    width: 642px;
+    height: 53px;
+    left: calc(50% - 642px/2);
+    top: 1776px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text-text2{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
+    position: absolute;
+    width: 422px;
+    height: 17px;
+    left: calc(50% - 422px/2);
+    top: 1838px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+
+    color: #000000;
+}
+.MacBook-pro{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 1886px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.macbookpro{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: calc(50% - 214px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title5{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 2165px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.text5{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 2202px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.text6{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 2261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.smartwatch{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 1886px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.smartwatch1{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: calc(50% - 214px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.Textwatch1{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 796px;
+    top: 2165px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.Textwatch2{
+    position: absolute;
+    height: 51px;
+    width: 261px;
+    left: 604px;
+    right: 796px;
+    top: 2202px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.Textwatch3{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 718px;
+    top: 2261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+}
+.macbookair{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 934px;
+    right: 403px;
+    top: 1886px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.macbookair1{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: calc(50% - 214px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.textair1{
+    position: absolute;
+    height: 28px;
+    left: 934px;
+    right: 530px;
+    top: 2165px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.textair2{
+    position: absolute;
+    height: 51px;
+    width: 261px;
+    left: 934px;
+    right: 445px;
+    top: 2202px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.textair3{
+    position: absolute;
+    height: 22px;
+    left: 934px;
+    right: 573px;
+    top: 2261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.ipad1{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 1265px;
+    right: 403px;
+    top: 1886px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.ipad2{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: calc(50% - 214px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.textipad1{
+    position: absolute;
+    height: 28px;
+    left: 1265px;
+    right: 329px;
+    top: 2165px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.textipad2{
+    position: absolute;
+    height: 51px;
+    width: 261px;
+    left: 1265px;
+    right: 114px;
+    top: 2202px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.textipad3{
+    position: absolute;
+    height: 22px;
+    left: 1265px;
+    right: 257px;
+    top: 2261px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+}
+.title6{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
+    position: absolute;
+    width: 529px;
+    height: 53px;
+    left: calc(50% - 529px/2 + 0.5px);
+    top: 2357px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text7{
+    position: absolute;
+    width: 422px;
+    height: 17px;
+    left: calc(50% - 422px/2);
+    top: 2419px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+
+    color: #000000;
+}
+.titles{
+    position: absolute;
+    height: 453px;
+    width: 413px;
+    left: 272px;
+    right: 954px;
+    top: 2492px;
+
+    background: #DCE5E2;
+    border-radius: 16px;
+}
+.button{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    left: 111px;
+    right: 111px;
+    top: 123px;
+
+    border: 1px solid #000000;
+    border-radius: 200px;
+}
+.buttontext{
+    position: absolute;
+    width: 64px;
+    height: 22px;
+    left: calc(50% - 64px/2);
+    top: calc(50% - 22px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.apple{
+    position: absolute;
+    width: 259px;
+    height: 250px;
+    left: calc(50% - 259px/2);
+    top: calc(50% - 250px/2 + 101.5px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title7{
+    position: absolute;
+    width: 141px;
+    height: 17px;
+    left: calc(50% - 141px/2);
+    top: calc(50% - 17px/2 - 177px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text8{
+    position: absolute;
+    width: 253px;
+    height: 35px;
+    left: calc(50% - 253px/2);
+    top: calc(50% - 35px/2 - 151px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.titles1{
+    position: absolute;
+    height: 453px;
+    width: 413px;
+    left: 713px;
+    right: 514px;
+    top: 2492px;
+
+    background: #DCE5E2;
+    border-radius: 16px;
+}
+.button1{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    left: 111px;
+    right: 111px;
+    top: 123px;
+
+    border: 1px solid #000000;
+    border-radius: 200px;
+}
+.buttontext1{
+    position: absolute;
+    width: 64px;
+    height: 22px;
+    left: calc(50% - 64px/2);
+    top: calc(50% - 22px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+}
+.apple1{
+    position: absolute;
+    width: 294px;
+    height: 250px;
+    left: calc(50% - 294px/2 - 0.5px);
+    top: calc(50% - 250px/2 + 101.5px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title8{
+    position: absolute;
+    width: 141px;
+    height: 17px;
+    left: calc(50% - 141px/2 - 1px);
+    top: calc(50% - 17px/2 - 177px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text9{
+    position: absolute;
+    width: 163px;
+    height: 35px;
+    left: calc(50% - 163px/2 - 1px);
+    top: calc(50% - 35px/2 - 151px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.titles2{
+    position: absolute;
+    height: 453px;
+    width: 413px;
+    left: 1154px;
+    right: 73px;
+    top: 2492px;
+
+    background: #DCE5E2;
+    border-radius: 16px;
+}
+.button2{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    left: 111px;
+    right: 111px;
+    top: 123px;
+
+    border: 1px solid #000000;
+    border-radius: 200px;
+}
+.buttontext2{
+    position: absolute;
+    width: 64px;
+    height: 22px;
+    left: calc(50% - 64px/2);
+    top: calc(50% - 22px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+}
+.apple2{
+    position: absolute;
+    width: 294px;
+    height: 250px;
+    left: calc(50% - 294px/2 - 0.5px);
+    top: calc(50% - 250px/2 + 101.5px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title9{
+    position: absolute;
+    width: 141px;
+    height: 17px;
+    left: calc(50% - 141px/2);
+    top: calc(50% - 17px/2 - 177px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text10{
+    position: absolute;
+    width: 201px;
+    height: 35px;
+    left: calc(50% - 201px/2);
+    top: calc(50% - 35px/2 - 151px);
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.title10{
+    position: absolute;
+    width: 497px;
+    height: 53px;
+    left: calc(50% - 497px/2 + 0.5px);
+    top: 3020px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text11{
+    position: absolute;
+    width: 422px;
+    height: 17px;
+    left: calc(50% - 422px/2);
+    top: 3082px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.foto{
+    position: absolute;
+    width: 620px;
+    height: 420px;
+    left: 273px;
+    top: 3155px;
+
+    background: url(.png);
+    border-radius: 16px;
+}
+.text12{
+    position: absolute;
+    height: 60px;
+    width: 569px;
+    left: 928px;
+    right: 143px;
+    top: 3169px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color: #000000;
+}
+.text13{
+    position: absolute;
+    height: 30px;
+    left: 928px;
+    right: 112px;
+    top: 3257px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+
+}
+.text14{
+    position: absolute;
+    height: 30px;
+    left: 928px;
+    right:191px ;
+    top: 3315px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+
+}
+.text15{
+    position: absolute;
+    height: 60px;
+    width: 569px;
+    left: 928px;
+    right: 143px;
+    top: 3373px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    color: #000000;
+}
+.text16{
+    position: absolute;
+    height: 29px;
+    width: 79px;
+    left: 865px;
+    right: 695px;
+    top: 3648px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+
+    text-transform: capitalize;
+}
+.vectorr{
+    position: absolute;
+    height: 28px;
+    left: 945px;
+    right: 665px;
+    top: 3649px;
+
+    border-radius: 0px;
+}
+.title11 {
+    position: absolute;
+    width: 563px;
+    height: 53px;
+    left: calc(50% - 563px / 2);
+    top: 3752px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.con{
+    position: absolute;
+    height: 450px;
+    width: 935px;
+    left: 453px;
+    right: 253px;
+    top: 4066px;
+
+    background: #DCE5E2;
+    border-radius: 16px;
+}
+.title12{
+
+    position: absolute;
+    width: 393px;
+    height: 53px;
+    left: calc(50% - 393px/2 - 0.48px);
+    top: 19.45px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text17{
+    position: absolute;
+    width: 549px;
+    height: 20px;
+    left: calc(50% - 549px/2 - 0.48px);
+    top: 81.45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.fotonus{
+    position: absolute;
+    width: 233px;
+    height: 200px;
+    left: calc(50% - 233px/2);
+    top: 143px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.con2{
+    position: absolute;
+    height: 378px;
+    width: 1440px;
+    left: 0%;
+    right: 0%;
+    top: 4535px;
+
+    background: #F8F9FA;
+    border-radius: 0px;
+}
+.text18{
+    position: absolute;
+    height: 39px;
+    width: 304px;
+    left: 273px;
+    right: 22.84%;
+    top: 65px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 120% */
+
+
+    color: #000000;
+}
+.alp{
+    position: absolute;
+    height: 28px;
+    width: 132px;
+    left: 695px;
+    right: 813px;
+    top: 25px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.text19{
+    position: absolute;
+    height: 22px;
+    left: 695px;
+    right: 883px;
+    top: 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+
+}
+.text20{
+    position: absolute;
+    height: 22px;
+    left: 695px;
+    right: 883px;
+    top: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.text21{
+    position: absolute;
+    height: 22px;
+    left: 695px;
+    right: 883px;
+    top: 135px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.text22{
+    position: absolute;
+    height: 22px;
+    left: 695px;
+    right: 883px;
+    top: 165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+
+}
+.cmp{
+    position: absolute;
+    height: 28px;
+    left: 920px;
+    right: 616px;
+    top: 25px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+
+}
+.text23{
+    position: absolute;
+    height: 22px;
+    left: 920px;
+    right: 616px;
+    top: 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.text24{
+    position: absolute;
+    height: 22px;
+    left: 920px;
+    right: 616px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+
+}
+.sup{
+    position: absolute;
+    height: 28px;
+    left: 1145px;
+    right: 404px;
+    top: 25px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.text25{
+    position: absolute;
+    height: 22px;
+    width: 95px;
+    left: 1145px;
+    right: 404px;
+    top: 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.text26{
+    position: absolute;
+    height: 22px;
+    width: 78px;
+    left: 1145px;
+    right: 404px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.text27{
+    position: absolute;
+    height: 22px;
+    width: 101px ;
+    left: 1145px;
+    right: 404px;
+    top: 135px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.text28{
+    position: absolute;
+    height: 22px;
+    width: 68px;
+    left: 1145px;
+    right: 404px;
+    top: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+ }
+.text29{
+    position: absolute;
+    height: 22px;
+    left: 1370px;
+    right: 165px;
+    top: 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+
+}
+.text30{
+    position: absolute;
+    height: 22px;
+    left: 1370px;
+    right: 165px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.text31{
+    position: absolute;
+    height: 22px;
+    left: 1370px;
+    right: 165px;
+    top: 135px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.text32{
+
+    position: absolute;
+    height: 22px;
+    width: 80px;
+    left: 1370px;
+    right: 165px;
+    top: 165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.flw{
+    position: absolute;
+    height: 28px;
+    width: 105px;
+    left: 1370px;
+    right: 165px;
+    top: 25px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+
+}
+.made{
+    position: absolute;
+    height: 22px;
+    width: 85px;
+    left: 273px;
+    right: 1282px;
+    top: 352px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+}
+.vad{
+    position: absolute;
+    height: 22px;
+    left: 358px;
+    right: 1210px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.vadv{
+
+    position: absolute;
+    height: 18px;
+    left: 415px;
+    right: 1189px;
+    top: 352px;
+
+    border-radius: 0px;
+}
+.logodown{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1186px;
+    top: 25px;
+
+    border-radius: 0px;
+}
+.label{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 50px;
+    width: 285px ;
+    left: 267px;
+    right: 383px;
+    top: 357px;
+
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+}
+.sig{
+    position: absolute;
+    height: 50px;
+    width: 115px;
+    left: 552px;
+    right: 268px;
+    top: 357px;
+
+    background: #000000;
+    color:white;
+    border-radius: 0px 200px 200px 0px;
+}
+.saekh{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 60px;
+    width: 650px;
+    left: 595px;
+    right: 395px;
+    top: 3829px;
+
+    background: #ffffff;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+}
+.icon{
+    position: absolute;
+    height: 29px;
+    left: 1192px;
+    right: 998px;
+    top: 3844px;
+
+    border-radius: 0px;
+}
+.batton{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 90px;
+    left: 649px;
+    right: 901px;
+    top: 3907px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton1{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 98px;
+    left: 746px;
+    right: 796px;
+    top: 3907px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton2{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 68px;
+    left: 851px;
+    right: 721px;
+    top: 3907px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton3{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 142px;
+    left: 926px;
+    right: 572px;
+    top: 3907px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton4{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 109px;
+    left: 1075px;
+    right: 456px;
+    top: 3907px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton5{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 118px;
+    left: 703px;
+    right: 819px;
+    top: 3956px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton6{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 109px;
+    left: 828px;
+    right: 703px;
+    top: 3956px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton7{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 91px;
+    left: 944px;
+    right: 605px;
+    top: 3956px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.batton8{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 42px;
+    width: 89px;
+    left: 1042px;
+    right: 509px;
+    top: 3956px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+.Iphone4{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone4{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt4{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt4{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx4{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone5{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone5{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt5{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt5{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx5{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone6{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 934px;
+    right: 403px;;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone6{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt6{
+    position: absolute;
+    height: 28px;
+    left: 934px;
+    right: 403px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt6{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 934px;
+    right: 403px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx6{
+    position: absolute;
+    height: 22px;
+    left: 934px;
+    right: 403px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone7{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 1265px;
+    right: 403px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone7{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt7{
+    position: absolute;
+    height: 28px;
+    left: 1265px;
+    right: 403px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt7{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 1265px;
+    right: 403px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx7{
+    position: absolute;
+    height: 22px;
+    left: 1265px;
+    right: 403px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone7plus{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 525px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone7plus{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt7plus{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 800px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt7plus{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 825px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx7plus{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 865px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone8{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 525px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone8{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt8{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 800px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt8{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 825px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx8{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 865px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone8plus{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 934px;
+    right: 403px;;
+    top: 525px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone8plus{
+    position: absolute;
+    width: 217px;
+    height: 244px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt8plus{
+    position: absolute;
+    height: 28px;
+    left: 934px;
+    right: 403px;
+    top: 800px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt8plus{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 934px;
+    right: 403px;
+    top: 825px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx8plus{
+    position: absolute;
+    height: 22px;
+    left: 934px;
+    right: 403px;
+    top: 865px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphonex{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 1265px;
+    right: 403px;
+    top: 525px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphonex{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipntx{
+    position: absolute;
+    height: 28px;
+    left: 1265px;
+    right: 403px;
+    top: 800px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txtx{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 1265px;
+    right: 403px;
+    top: 825px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txx{
+    position: absolute;
+    height: 22px;
+    left: 1265px;
+    right: 403px;
+    top: 865px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphonexs{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 925px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphonexs{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipntxs{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 1200px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txtxs{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 1225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxxs{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 1265px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphonexsmax{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 925px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphonexsmax{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipntxsmax{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 1200px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txtxsmax{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 1225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txsmax{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 1265px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone11{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 934px;
+    right: 403px;;
+    top: 925px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone11{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt11{
+    position: absolute;
+    height: 28px;
+    left: 934px;
+    right: 403px;
+    top: 1200px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt11{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 934px;
+    right: 403px;
+    top: 1225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx11{
+    position: absolute;
+    height: 22px;
+    left: 934px;
+    right: 403px;
+    top: 1265px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Iphone11pro{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 1265px;
+    right: 403px;
+    top: 925px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.iphone11pro{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnt11pro{
+    position: absolute;
+    height: 28px;
+    left: 1265px;
+    right: 403px;
+    top: 1200px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txt11pro{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 1265px;
+    right: 403px;
+    top: 1225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.tx11pro{
+    position: absolute;
+    height: 22px;
+    left: 1265px;
+    right: 403px;
+    top: 1265px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Macair2018{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.macair2018{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipnair2018{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txmair2018{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txair2018{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Airm1{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.airm1{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.airm11{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txairm11{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txairm1{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Air22{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 934px;
+    right: 403px;;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.air22{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.airr22{
+    position: absolute;
+    height: 28px;
+    left: 934px;
+    right: 403px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txxair22{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 934px;
+    right: 403px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txair22{
+    position: absolute;
+    height: 22px;
+    left: 934px;
+    right: 403px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Airm2{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 1265px;
+    right: 403px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.airm2{
+    position: absolute;
+    width: 270px;
+    height: 165px;
+    left: calc(50% - 247px/2);
+    top: 45px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.airm22{
+    position: absolute;
+    height: 28px;
+    left: 1265px;
+    right: 403px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txxairm2{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 1265px;
+    right: 403px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txairm2{
+    position: absolute;
+    height: 22px;
+    left: 1265px;
+    right: 403px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Pro13{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 525px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.pro13{
+    position: absolute;
+    width: 270px;
+    height: 220px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.macpro13{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 800px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txxpro13{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 825px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txpro13{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 865px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Ipd{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.ipd{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipdd{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txd{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxd{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Ipdpro{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.ipdpro{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipddpro{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txdpro{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxdpro{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.back-to-top {
+    background: #3E64FF;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 50px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top svg {
+    fill: #ffffff;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+.Smart{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.smart{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.smartt{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txs{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxs{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.adres{
+    right: 1000px;
+    left:200px;
+    top:25px;
+}
+.arr{
+    right: 1000px;
+    left:200px;
+    top:25px;
+}
