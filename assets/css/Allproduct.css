@@ -1,0 +1,236 @@
+.macbook{
+    position: absolute;
+    height: 377px;
+    left: 42px;
+    right: 97px;
+    top: 0;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.mac{
+    position: absolute;
+    height: 472px;
+    width: 639px;
+    left: 14.7%;
+    right: 0;
+    top: 884px;
+
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.title1{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    right: 42px;
+    left: 537px;
+    bottom: 76px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text1{
+    position: absolute;
+    width: 192px;
+    height: 77px;
+    right: 42px;
+    left: 405px;
+    bottom: 0px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.iphone{
+    position: absolute;
+    height: 792px;
+    width: 312px;
+    left: 50%;
+    right: 0;
+    top: 884px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.iphone1{
+    position: absolute;
+    height: 367px;
+    left: 5.14%;
+    right: -35.15%;
+    top: calc(50% - 367px/2 - 68.49px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title2{
+    position: absolute;
+    width: 56px;
+    height: 20px;
+    left: calc(50% - 56px/2 + 0.25px);
+    top: 552px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.text2{
+    position: absolute;
+    width: 250px;
+    height: 77px;
+    left: calc(50% - 250px/2 + 0.25px);
+    top: 571px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.tablet{
+    position: absolute;
+    height: 792px;
+    width: 312px;
+    left: 67.7%;
+    right: 0;
+    top: 884px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.ipad{
+    position: absolute;
+    height: 426px;
+    left: 0;
+    right: 300px;
+    top: calc(50% - 425px/2 + 68.51px);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title3{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    left: calc(50% - 47px/2 + 0.25px);
+    top: 114px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.text3{
+    position: absolute;
+    width: 233px;
+    height: 77px;
+    left: calc(50% - 233px/2 + 0.25px);
+    top: 133px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+.clock{
+    position: absolute;
+    height: 270px;
+    width: 639px;
+    left: 14.7%;
+    right:0;
+    top: 1400px;
+
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.watch{
+    position: absolute;
+    width: 381px;
+    height: 270px;
+    right: 216px;
+    left: 42px;
+    top: calc(50% - 270px/2);
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.title4{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    right: 42px;
+    left: 550px;
+    bottom: 75.5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text4{
+    position: absolute;
+    width: 128px;
+    height: 77px;
+    right: 42px;
+    left: 469px;
+    bottom: -0.5px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 120% */
+
+    text-align: right;
+
+    color: #000000;
+
+}

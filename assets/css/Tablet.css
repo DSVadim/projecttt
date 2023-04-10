@@ -1,0 +1,150 @@
+.Ipd{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 273px;
+    right: 1064px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.ipd{
+    position: absolute;
+    width: 247px;
+    height: 214px;
+    left: calc(50% - 247px/2);
+    top: 25px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipdd{
+    position: absolute;
+    height: 28px;
+    left: 273px;
+    right: 1191px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txd{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 273px;
+    right: 1106px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxd{
+    position: absolute;
+    height: 22px;
+    left: 273px;
+    right: 1234px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}
+.Ipdpro{
+    position: absolute;
+    height: 270px;
+    width: 303px;
+    left: 604px;
+    right: 733px;
+    top: 125px;
+
+    background: #DCE5E2;
+    border-radius: 0px;
+}
+.ipdpro{
+    position: absolute;
+    width: 247px;
+    height: 254px;
+    left: calc(50% - 247px/2);
+    top: 5px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.ipddpro{
+    position: absolute;
+    height: 28px;
+    left: 604px;
+    right: 733px;
+    top: 400px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.txdpro{
+    position: absolute;
+    height: 34px;
+    width: 261px;
+    left: 604px;
+    right: 733px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+
+
+    color: #4B4B4B;
+
+}
+.txxdpro{
+    position: absolute;
+    height: 22px;
+    left: 604px;
+    right: 733px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+
+    color: #000000;
+
+}

@@ -1,0 +1,127 @@
+.section1 {
+    position: absolute;
+    height: 550px;
+    width: 1294px;
+    top: 108px;
+    left: 73px;
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.section1-title {
+    position: absolute;
+    height: 140px;
+    width: 588px;
+    top: 126px;
+    left: 56px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+}
+.section1-text {
+    position: absolute;
+    height: 39px;
+    width: 565px;
+    top: 304px;
+    left: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.section1-btn {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    left: 56px;
+    top: 373px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background: #DCE5E2;
+}
+.section1-btn-text {
+    position: absolute;
+    height: 22px;
+    width: 64px;
+    left: 53px;
+    top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.right{
+    position: absolute;
+    top: 265px;
+    left: 1263px;
+}
+.left{
+    position: absolute;
+    top: 265px;
+    left: 19px;
+}
+.mySwiper {
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    top: 108px;
+    left:0%;
+    right: 0%;
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+.image-slider {
+    position: absolute;
+    width: 647px;
+    height:700px;
+    top:60px;
+    left: 65%;
+}
+.image-slider2 {
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 80px;
+    left:55px;
+}
+.image-slider3 {
+    position: absolute;
+    width: 647px;
+    height: 500px;
+    top:60px;
+    left: 65%;
+}
+.section2-title {
+    position: absolute;
+    height: 140px;
+    width: 588px;
+    top: 126px;
+    right: 56px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+}
+.section2-text {
+    position: absolute;
+    height: 39px;
+    width: 565px;
+    top: 304px;
+    right: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

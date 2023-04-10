@@ -7,265 +7,6 @@ body {
     width: 100%;
     background-color: #ffffff;
 }
-*{margin: 0}
-header {
-    grid-area: header;
-    font-family: Noto Sans;
-    font-style: normal;
-    font-weight: 500;
-    color: white;
-    height: 80px;
-    width: 2000px;
-    background-color: #b8c4d9;
-}
-
-.photo {
-    position: absolute;
-    left: 73px;
-    top: 5px;
-}
-
-
-.nav1 {
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 600px;
-    top: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-}
-.nav1:hover{
-    color: #95d9cc;
-}
-.nav2 {
-    position: absolute;
-    height: 17px;
-    left: 790px;
-    top: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-}
-.nav2:hover{
-    color: #95d9cc;
-}
-.nav-vector {
-    position: absolute;
-    left: 900px;
-    top: 30px;
-    bottom: 25%;
-}
-
-
-.nav3 {
-    position: absolute;
-    width: 51px;
-    height: 17px;
-    left: 950px;
-    top: 25px;
-    font-family: 'Inter',serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-}
-.nav3:hover{
-    color: #95d9cc;
-}
-
-
-
-.nav4 {
-    position: absolute;
-    width: 71px;
-    height: 17px;
-    left: 1050px;
-    top: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-}
-.nav4:hover {
-    color: #95d9cc;
-}
-
-.sfd {
-    position: absolute;
-    top: 5px;
-    left: 1600px;
-    font-size: 19px;
-}
-
-
-.sfd2 {
-    position: absolute;
-    top: 5px;
-    left: 1700px;
-    font-size: 19px;
-}
-.photo:hover img {
-    transform: scale(1.1);
-}
-img {
-    transition: transform 0.5s;
-}
-
-.sfd :hover {
-    color: #95d9cc;
-    transition: 0.3s;
-}
-.sfd2 :hover {
-    color: #95d9cc;
-    transition: 0.3s;
-}
-.section1 {
-    position: absolute;
-    position: absolute;
-    height: 550px;
-    width: 1294px;
-    top: 108px;
-    left: 73px;
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.section1-title {
-    position: absolute;
-    height: 140px;
-    width: 588px;
-    top: 126px;
-    left: 56px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 58px;
-    line-height: 70px;
-    color: #000000;
-}
-.section1-text {
-    position: absolute;
-    height: 39px;
-    width: 565px;
-    top: 304px;
-    left: 56px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
-.section1-btn {
-    box-sizing: border-box;
-    position: absolute;
-    height: 50px;
-    width: 170px;
-    left: 56px;
-    top: 373px;
-    border: 1px solid #000000;
-    border-radius: 200px;
-    background: #DCE5E2;
-}
-.section1-btn-text {
-    position: absolute;
-    height: 22px;
-    width: 64px;
-    left: 53px;
-    top: 12px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: capitalize;
-    color: #000000;
-}
-.right{
-    position: absolute;
-    top: 265px;
-    left: 1263px;
-}
-.left{
-    position: absolute;
-    top: 265px;
-    left: 19px;
-}
-.mySwiper {
-    position: absolute;
-    height: 550px;
-    width: 1294px;
-    top: 108px;
-    left: 73px;
-    right: 73px;
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.image-slider {
-    position: absolute;
-    width: 647px;
-    height:700px;
-    top:60px;
-    left: 600px;
-}
-.image-slider2 {
-    position: absolute;
-    width: 550px;
-    height: 450px;
-    top: 80px;
-    left:55px;
-}
-.image-slider3 {
-    position: absolute;
-    width: 647px;
-    height: 500px;
-    top:60px;
-    left: 600px;
-}
-.section2-title {
-    position: absolute;
-    height: 140px;
-    width: 588px;
-    top: 126px;
-    right: 56px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 70px;
-    color: #000000;
-}
-.section2-text {
-    position: absolute;
-    height: 39px;
-    width: 565px;
-    top: 304px;
-    right: 56px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
 .text-title{
     Display: flex;
     Justify-content: center;
@@ -306,241 +47,6 @@ img {
     /* identical to box height, or 125% */
 
     text-align: center;
-
-    color: #000000;
-
-}
-.macbook{
-    position: absolute;
-    height: 377px;
-    left: 42px;
-    right: 97px;
-    top: 0;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.mac{
-    position: absolute;
-    height: 472px;
-    width: 639px;
-    left: 273px;
-    right:728px;
-    top: 884px;
-
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.title1{
-    position: absolute;
-    width: 60px;
-    height: 20px;
-    right: 42px;
-    left: 537px;
-    bottom: 76px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
-
-    text-align: right;
-
-    color: #000000;
-}
-.text1{
-    position: absolute;
-    width: 192px;
-    height: 77px;
-    right: 42px;
-    left: 405px;
-    bottom: 0px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    /* or 120% */
-
-    text-align: right;
-
-    color: #000000;
-}
-.iphone{
-    position: absolute;
-    height: 792px;
-    width: 312px;
-    left: 928px;
-    right: 400px;
-    top: 884px;
-
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.iphone1{
-    position: absolute;
-    height: 367px;
-    left: 5.14%;
-    right: -35.15%;
-    top: calc(50% - 367px/2 - 68.49px);
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.title2{
-    position: absolute;
-    width: 56px;
-    height: 20px;
-    left: calc(50% - 56px/2 + 0.25px);
-    top: 552px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
-
-    text-align: center;
-
-    color: #000000;
-
-}
-.text2{
-    position: absolute;
-    width: 250px;
-    height: 77px;
-    left: calc(50% - 250px/2 + 0.25px);
-    top: 571px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    /* or 120% */
-
-    text-align: center;
-
-    color: #000000;
-}
-.tablet{
-    position: absolute;
-    height: 792px;
-    width: 312px;
-    left: 1256px;
-    right: 72px;
-    top: 884px;
-
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.ipad{
-    position: absolute;
-    height: 426px;
-    left: 0;
-    right: 300px;
-    top: calc(50% - 425px/2 + 68.51px);
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.title3{
-    position: absolute;
-    width: 47px;
-    height: 20px;
-    left: calc(50% - 47px/2 + 0.25px);
-    top: 114px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-
-    color: #000000;
-}
-.text3{
-    position: absolute;
-    width: 233px;
-    height: 77px;
-    left: calc(50% - 233px/2 + 0.25px);
-    top: 133px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    /* or 120% */
-
-    text-align: center;
-
-    color: #000000;
-}
-.clock{
-    position: absolute;
-    height: 270px;
-    width: 639px;
-    left: 273px;
-    right:728px;
-    top: 1400px;
-
-    background: #DCE5E2;
-    border-radius: 32px;
-}
-.watch{
-    position: absolute;
-    width: 381px;
-    height: 270px;
-    right: 216px;
-    left: 42px;
-    top: calc(50% - 270px/2);
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.title4{
-    position: absolute;
-    width: 47px;
-    height: 20px;
-    right: 42px;
-    left: 550px;
-    bottom: 75.5px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height, or 128% */
-
-    text-align: right;
-
-    color: #000000;
-}
-.text4{
-    position: absolute;
-    width: 128px;
-    height: 77px;
-    right: 42px;
-    left: 469px;
-    bottom: -0.5px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    /* or 120% */
-
-    text-align: right;
 
     color: #000000;
 
@@ -590,8 +96,8 @@ img {
     position: absolute;
     height: 270px;
     width: 303px;
-    left: 273px;
-    right: 1064px;
+    left: 14.9%;
+    right: 0;
     top: 1886px;
 
     background: #DCE5E2;
@@ -610,8 +116,8 @@ img {
 .title5{
     position: absolute;
     height: 28px;
-    left: 273px;
-    right: 1191px;
+    left: 14.9%;
+    right: 0;
     top: 2165px;
 
     font-family: 'Readex Pro';
@@ -628,8 +134,8 @@ img {
     position: absolute;
     height: 34px;
     width: 261px;
-    left: 273px;
-    right: 1106px;
+    left: 14.9%;
+    right:0;
     top: 2202px;
 
     font-family: 'Inter';
@@ -646,8 +152,8 @@ img {
 .text6{
     position: absolute;
     height: 22px;
-    left: 273px;
-    right: 1234px;
+    left: 14.9%;
+    right: 0;
     top: 2261px;
 
     font-family: 'Inter';
@@ -665,8 +171,8 @@ img {
     position: absolute;
     height: 270px;
     width: 303px;
-    left: 604px;
-    right: 733px;
+    left: 32.8%;
+    right: 0;
     top: 1886px;
 
     background: #DCE5E2;
@@ -685,8 +191,8 @@ img {
 .Textwatch1{
     position: absolute;
     height: 28px;
-    left: 604px;
-    right: 796px;
+    left: 32.8%;
+    right: 0;
     top: 2165px;
 
     font-family: 'Readex Pro';
@@ -703,8 +209,8 @@ img {
     position: absolute;
     height: 51px;
     width: 261px;
-    left: 604px;
-    right: 796px;
+    left: 32.8%;
+    right: 0;
     top: 2202px;
 
     font-family: 'Inter';
@@ -721,8 +227,8 @@ img {
 .Textwatch3{
     position: absolute;
     height: 22px;
-    left: 604px;
-    right: 718px;
+    left: 32.8%;
+    right: 0;
     top: 2261px;
 
     font-family: 'Inter';
@@ -739,8 +245,8 @@ img {
     position: absolute;
     height: 270px;
     width: 303px;
-    left: 934px;
-    right: 403px;
+    left: 50.7%;
+    right: 0;
     top: 1886px;
 
     background: #DCE5E2;
@@ -759,8 +265,8 @@ img {
 .textair1{
     position: absolute;
     height: 28px;
-    left: 934px;
-    right: 530px;
+    left: 50.7%;
+    right: 0;
     top: 2165px;
 
     font-family: 'Readex Pro';
@@ -777,8 +283,8 @@ img {
     position: absolute;
     height: 51px;
     width: 261px;
-    left: 934px;
-    right: 445px;
+    left: 50.7%;
+    right: 0;
     top: 2202px;
 
     font-family: 'Inter';
@@ -795,8 +301,8 @@ img {
 .textair3{
     position: absolute;
     height: 22px;
-    left: 934px;
-    right: 573px;
+    left: 50.7%;
+    right: 0;
     top: 2261px;
 
     font-family: 'Inter';
@@ -814,8 +320,8 @@ img {
     position: absolute;
     height: 270px;
     width: 303px;
-    left: 1265px;
-    right: 403px;
+    left: 68.6%;
+    right: 0;
     top: 1886px;
 
     background: #DCE5E2;
@@ -834,8 +340,8 @@ img {
 .textipad1{
     position: absolute;
     height: 28px;
-    left: 1265px;
-    right: 329px;
+    left: 68.6%;
+    right: 0;
     top: 2165px;
 
     font-family: 'Readex Pro';
@@ -852,8 +358,8 @@ img {
     position: absolute;
     height: 51px;
     width: 261px;
-    left: 1265px;
-    right: 114px;
+    left: 68.6%;
+    right: 0;
     top: 2202px;
 
     font-family: 'Inter';
@@ -870,8 +376,8 @@ img {
 .textipad3{
     position: absolute;
     height: 22px;
-    left: 1265px;
-    right: 257px;
+    left: 68.6%;
+    right: 0;
     top: 2261px;
 
     font-family: 'Inter';
@@ -926,8 +432,8 @@ img {
     position: absolute;
     height: 453px;
     width: 413px;
-    left: 272px;
-    right: 954px;
+    left: 14.7%;
+    right: 0;
     top: 2492px;
 
     background: #DCE5E2;
@@ -1016,8 +522,8 @@ img {
     position: absolute;
     height: 453px;
     width: 413px;
-    left: 713px;
-    right: 514px;
+    left: 38.5%;
+    right: 0;
     top: 2492px;
 
     background: #DCE5E2;
@@ -1109,8 +615,8 @@ img {
     position: absolute;
     height: 453px;
     width: 413px;
-    left: 1154px;
-    right: 73px;
+    left: 62.4%;
+    right: 0;
     top: 2492px;
 
     background: #DCE5E2;
@@ -1240,7 +746,7 @@ img {
     position: absolute;
     width: 620px;
     height: 420px;
-    left: 273px;
+    left: 14.7%;
     top: 3155px;
 
     background: url(.png);
@@ -1250,8 +756,8 @@ img {
     position: absolute;
     height: 60px;
     width: 569px;
-    left: 928px;
-    right: 143px;
+    left: 50.3%;
+    right: 0;
     top: 3169px;
 
     font-family: 'Inter';
@@ -1267,8 +773,8 @@ img {
 .text13{
     position: absolute;
     height: 30px;
-    left: 928px;
-    right: 112px;
+    left: 50.3%;
+    right: 0;
     top: 3257px;
 
     font-family: 'Inter';
@@ -1285,8 +791,8 @@ img {
 .text14{
     position: absolute;
     height: 30px;
-    left: 928px;
-    right:191px ;
+    left: 50.3%;
+    right:0 ;
     top: 3315px;
 
     font-family: 'Inter';
@@ -1304,8 +810,8 @@ img {
     position: absolute;
     height: 60px;
     width: 569px;
-    left: 928px;
-    right: 143px;
+    left: 50.3%;
+    right: 0;
     top: 3373px;
 
     font-family: 'Inter';
@@ -1319,11 +825,14 @@ img {
     color: #000000;
 }
 .text16{
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
     position: absolute;
     height: 29px;
     width: 79px;
-    left: 865px;
-    right: 695px;
+    left:50%;
+    right: 0;
     top: 3648px;
 
     font-family: 'Inter';
@@ -1338,13 +847,16 @@ img {
 .vectorr{
     position: absolute;
     height: 28px;
-    left: 945px;
-    right: 665px;
+    left: 54%;
+    right: 0;
     top: 3649px;
 
     border-radius: 0px;
 }
 .title11 {
+    Display: flex;
+    Justify-content: center;
+    Align-items:center;
     position: absolute;
     width: 563px;
     height: 53px;
@@ -1366,8 +878,8 @@ img {
     position: absolute;
     height: 450px;
     width: 935px;
-    left: 453px;
-    right: 253px;
+    left: 25%;
+    right: 0;
     top: 4066px;
 
     background: #DCE5E2;
@@ -2001,1431 +1513,9 @@ img {
     border: 1px solid #C5C5C5;
     border-radius: 200px;
 }
-.Iphone4{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 125px;
 
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone4{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
 
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt4{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 400px;
 
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt4{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx4{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone5{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 604px;
-    right: 733px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone5{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt5{
-    position: absolute;
-    height: 28px;
-    left: 604px;
-    right: 733px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt5{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 604px;
-    right: 733px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx5{
-    position: absolute;
-    height: 22px;
-    left: 604px;
-    right: 733px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone6{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 934px;
-    right: 403px;;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone6{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt6{
-    position: absolute;
-    height: 28px;
-    left: 934px;
-    right: 403px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt6{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 934px;
-    right: 403px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx6{
-    position: absolute;
-    height: 22px;
-    left: 934px;
-    right: 403px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone7{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 1265px;
-    right: 403px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone7{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt7{
-    position: absolute;
-    height: 28px;
-    left: 1265px;
-    right: 403px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt7{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 1265px;
-    right: 403px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx7{
-    position: absolute;
-    height: 22px;
-    left: 1265px;
-    right: 403px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone7plus{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 525px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone7plus{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt7plus{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 800px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt7plus{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 825px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx7plus{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 865px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone8{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 604px;
-    right: 733px;
-    top: 525px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone8{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt8{
-    position: absolute;
-    height: 28px;
-    left: 604px;
-    right: 733px;
-    top: 800px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt8{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 604px;
-    right: 733px;
-    top: 825px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx8{
-    position: absolute;
-    height: 22px;
-    left: 604px;
-    right: 733px;
-    top: 865px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone8plus{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 934px;
-    right: 403px;;
-    top: 525px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone8plus{
-    position: absolute;
-    width: 217px;
-    height: 244px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt8plus{
-    position: absolute;
-    height: 28px;
-    left: 934px;
-    right: 403px;
-    top: 800px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt8plus{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 934px;
-    right: 403px;
-    top: 825px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx8plus{
-    position: absolute;
-    height: 22px;
-    left: 934px;
-    right: 403px;
-    top: 865px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphonex{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 1265px;
-    right: 403px;
-    top: 525px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphonex{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipntx{
-    position: absolute;
-    height: 28px;
-    left: 1265px;
-    right: 403px;
-    top: 800px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txtx{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 1265px;
-    right: 403px;
-    top: 825px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txx{
-    position: absolute;
-    height: 22px;
-    left: 1265px;
-    right: 403px;
-    top: 865px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphonexs{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 925px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphonexs{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipntxs{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 1200px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txtxs{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 1225px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txxxs{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 1265px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphonexsmax{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 604px;
-    right: 733px;
-    top: 925px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphonexsmax{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipntxsmax{
-    position: absolute;
-    height: 28px;
-    left: 604px;
-    right: 733px;
-    top: 1200px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txtxsmax{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 604px;
-    right: 733px;
-    top: 1225px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txsmax{
-    position: absolute;
-    height: 22px;
-    left: 604px;
-    right: 733px;
-    top: 1265px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone11{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 934px;
-    right: 403px;;
-    top: 925px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone11{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt11{
-    position: absolute;
-    height: 28px;
-    left: 934px;
-    right: 403px;
-    top: 1200px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt11{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 934px;
-    right: 403px;
-    top: 1225px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx11{
-    position: absolute;
-    height: 22px;
-    left: 934px;
-    right: 403px;
-    top: 1265px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Iphone11pro{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 1265px;
-    right: 403px;
-    top: 925px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.iphone11pro{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnt11pro{
-    position: absolute;
-    height: 28px;
-    left: 1265px;
-    right: 403px;
-    top: 1200px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txt11pro{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 1265px;
-    right: 403px;
-    top: 1225px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.tx11pro{
-    position: absolute;
-    height: 22px;
-    left: 1265px;
-    right: 403px;
-    top: 1265px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Macair2018{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.macair2018{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipnair2018{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txmair2018{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txair2018{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Airm1{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 604px;
-    right: 733px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.airm1{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.airm11{
-    position: absolute;
-    height: 28px;
-    left: 604px;
-    right: 733px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txairm11{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 604px;
-    right: 733px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txairm1{
-    position: absolute;
-    height: 22px;
-    left: 604px;
-    right: 733px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Air22{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 934px;
-    right: 403px;;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.air22{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.airr22{
-    position: absolute;
-    height: 28px;
-    left: 934px;
-    right: 403px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txxair22{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 934px;
-    right: 403px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txair22{
-    position: absolute;
-    height: 22px;
-    left: 934px;
-    right: 403px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Airm2{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 1265px;
-    right: 403px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.airm2{
-    position: absolute;
-    width: 270px;
-    height: 165px;
-    left: calc(50% - 247px/2);
-    top: 45px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.airm22{
-    position: absolute;
-    height: 28px;
-    left: 1265px;
-    right: 403px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txxairm2{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 1265px;
-    right: 403px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txairm2{
-    position: absolute;
-    height: 22px;
-    left: 1265px;
-    right: 403px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Pro13{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 525px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.pro13{
-    position: absolute;
-    width: 270px;
-    height: 220px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.macpro13{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 800px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txxpro13{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 825px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txpro13{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 865px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Ipd{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.ipd{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipdd{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txd{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txxd{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.Ipdpro{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 604px;
-    right: 733px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.ipdpro{
-    position: absolute;
-    width: 247px;
-    height: 254px;
-    left: calc(50% - 247px/2);
-    top: 5px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.ipddpro{
-    position: absolute;
-    height: 28px;
-    left: 604px;
-    right: 733px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txdpro{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 604px;
-    right: 733px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txxdpro{
-    position: absolute;
-    height: 22px;
-    left: 604px;
-    right: 733px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
 .back-to-top {
     background: #3E64FF;
     border-radius: 50%;
@@ -3444,89 +1534,4 @@ img {
 .back-to-top.active {
     bottom: 50px;
     transition: 0.3s all;
-}
-.Smart{
-    position: absolute;
-    height: 270px;
-    width: 303px;
-    left: 273px;
-    right: 1064px;
-    top: 125px;
-
-    background: #DCE5E2;
-    border-radius: 0px;
-}
-.smart{
-    position: absolute;
-    width: 247px;
-    height: 214px;
-    left: calc(50% - 247px/2);
-    top: 25px;
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.smartt{
-    position: absolute;
-    height: 28px;
-    left: 273px;
-    right: 1191px;
-    top: 400px;
-
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 125% */
-
-
-    color: #000000;
-}
-.txs{
-    position: absolute;
-    height: 34px;
-    width: 261px;
-    left: 273px;
-    right: 1106px;
-    top: 425px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* or 120% */
-
-
-    color: #4B4B4B;
-
-}
-.txxs{
-    position: absolute;
-    height: 22px;
-    left: 273px;
-    right: 1234px;
-    top: 465px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 120% */
-
-
-    color: #000000;
-
-}
-.adres{
-    right: 1000px;
-    left:200px;
-    top:25px;
-}
-.arr{
-    right: 1000px;
-    left:200px;
-    top:25px;
 }
