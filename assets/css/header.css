@@ -129,3 +129,31 @@ img {
     color: #95d9cc;
     transition: 0.3s;
 }
+.facebook{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 70%;
+    top:15px;
+}
+.instagram{
+    position: absolute;
+     height: 35px;
+     width: 35px;
+     left: 72%;
+    top:15px;
+ }
+.in{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 74%;
+    top:15px;
+}
+.youtube{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 76%;
+    top:15px;
+}

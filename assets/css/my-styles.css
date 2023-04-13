@@ -1544,7 +1544,7 @@ body {
     position:absolute ;
     height: 32px;
     width: 32px;
-    left:calc(50% - 250px/2 + 0.25px);
+    left:80%;
     top: 700px;
 }
 .strila2{
