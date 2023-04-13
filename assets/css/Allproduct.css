@@ -5,7 +5,6 @@
     right: 97px;
     top: 0;
 
-    background: url(.png);
     border-radius: 0px;
 }
 .mac{
@@ -58,6 +57,13 @@
 
     color: #000000;
 }
+.strila{
+    height: 32px;
+    width: 32px;
+    left:537px;
+    right:42px;
+    top: 120px;
+}
 .iphone{
     position: absolute;
     height: 792px;
@@ -76,7 +82,7 @@
     right: -35.15%;
     top: calc(50% - 367px/2 - 68.49px);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title2{
@@ -134,7 +140,7 @@
     right: 300px;
     top: calc(50% - 425px/2 + 68.51px);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title3{
@@ -192,7 +198,7 @@
     left: 42px;
     top: calc(50% - 270px/2);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title4{

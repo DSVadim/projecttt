@@ -103,6 +103,7 @@ body {
     background: #DCE5E2;
     border-radius: 0px;
 }
+
 .macbookpro{
     position: absolute;
     width: 247px;
@@ -110,7 +111,7 @@ body {
     left: calc(50% - 247px/2);
     top: calc(50% - 214px/2);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title5{
@@ -185,7 +186,7 @@ body {
     left: calc(50% - 247px/2);
     top: calc(50% - 214px/2);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .Textwatch1{
@@ -259,7 +260,7 @@ body {
     left: calc(50% - 247px/2);
     top: calc(50% - 214px/2);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .textair1{
@@ -334,7 +335,6 @@ body {
     left: calc(50% - 247px/2);
     top: calc(50% - 214px/2);
 
-    background: url(.png);
     border-radius: 0px;
 }
 .textipad1{
@@ -479,7 +479,7 @@ body {
     left: calc(50% - 259px/2);
     top: calc(50% - 250px/2 + 101.5px);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title7{
@@ -571,7 +571,7 @@ body {
     left: calc(50% - 294px/2 - 0.5px);
     top: calc(50% - 250px/2 + 101.5px);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title8{
@@ -664,7 +664,7 @@ body {
     left: calc(50% - 294px/2 - 0.5px);
     top: calc(50% - 250px/2 + 101.5px);
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .title9{
@@ -749,7 +749,6 @@ body {
     left: 14.7%;
     top: 3155px;
 
-    background: url(.png);
     border-radius: 16px;
 }
 .text12{
@@ -930,19 +929,19 @@ body {
     left: calc(50% - 233px/2);
     top: 143px;
 
-    background: url(.png);
+
     border-radius: 0px;
 }
 .con2{
     position: absolute;
     height: 378px;
-    width: 1400px;
+    width:100%;
     left:0%;
     right: 0%;
     top: 4535px;
 
     background: #ffffff;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .text18{
     position: absolute;
@@ -1514,31 +1513,6 @@ body {
     border-radius: 200px;
 }
 
-
-
-.back-to-top {
-    background: #3E64FF;
-    border-radius: 50%;
-    position: fixed;
-    bottom: -50px;
-    padding: 10px 12px;
-    right: 50px;
-    cursor: pointer;
-    transition: 0.3s all;
-}
-
-.back-to-top svg {
-    fill: #ffffff;
-}
-
-.back-to-top.active {
-    bottom: 50px;
-    transition: 0.3s all;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
 .text33{
     position: absolute;
     height: 22px;
@@ -1557,5 +1531,4 @@ ul{
 
     color: #000000;
 
-}
 }
