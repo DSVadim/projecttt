@@ -1535,3 +1535,27 @@ body {
     bottom: 50px;
     transition: 0.3s all;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
+.text33{
+    position: absolute;
+    height: 22px;
+    width: 200px;
+    left: 695px;
+    right: 883px;
+    top: 195px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+
+}
+}
