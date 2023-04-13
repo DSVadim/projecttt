@@ -936,13 +936,13 @@ body {
 .con2{
     position: absolute;
     height: 378px;
-    width: 1440px;
-    left: 0%;
+    width: 1400px;
+    left:0%;
     right: 0%;
     top: 4535px;
 
-    background: #F8F9FA;
-    border-radius: 0px;
+    background: #ffffff;
+    border-radius: 10px;
 }
 .text18{
     position: absolute;
