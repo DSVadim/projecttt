@@ -91,7 +91,6 @@
     left: calc(50% - 247px/2);
     top: 5px;
 
-    background: url(.png);
     border-radius: 0px;
 }
 .ipnt5{
@@ -166,7 +165,6 @@
     left: calc(50% - 247px/2);
     top: 25px;
 
-    background: url(.png);
     border-radius: 0px;
 }
 .ipnt6{
