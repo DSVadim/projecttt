@@ -1,25 +1,37 @@
-html {
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    height: 500vh;
-    background: #000;
+    font-family: sans-serif;
+    background-color: black;
 }
 
-canvas {
+.intro {
+    height: 200vh;
+}
+.intro canvas {
     position: fixed;
+    backface-visibility: hidden;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 100vw;
-    max-height: 100vh;
+    max-width: 200vw;
+    max-height: 200vh;
+
 }
-p {
-    color:white;
-    position:fixed;
-    top:90%;
-    left:48.5%;
-    z-index:1;
-    font-size: 15px;
+section h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 80px;
 }
+
+section  {
+    color: #ffffff;
+    padding-top: 0;
+    text-align: center;
+    font-size: 80px;
+}
+
