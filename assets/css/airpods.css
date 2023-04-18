@@ -8,30 +8,30 @@ body {
     font-family: sans-serif;
     background-color: black;
 }
-
-.intro {
-    height: 200vh;
-}
-.intro canvas {
-    position: fixed;
-    backface-visibility: hidden;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 200vw;
-    max-height: 200vh;
-
-}
 section h1 {
     padding-top: 10px;
     text-align: center;
     font-size: 80px;
 }
 
-section  {
+section {
     color: #ffffff;
     padding-top: 0;
     text-align: center;
     font-size: 80px;
 }
+.intro {
+    height: 200vh;
+}
+.intro canvas {
+    position: fixed;
+    backface-visibility:hidden ;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 200vw;
+    max-height: 200vh;
+
+}
+
 

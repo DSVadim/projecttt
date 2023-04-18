@@ -1,0 +1,160 @@
+*{margin: 0}
+header {
+    grid-area: header;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    height: 80px;
+    max_width: 100%;
+    background-color: #ffffff;
+}
+
+.photo {
+    position: absolute;
+    left: 4.9%;
+    top: 5px;
+
+}
+
+
+.nav1 {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 36.4%;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav1:hover{
+    color: #95d9cc;
+}
+.nav2 {
+    position: absolute;
+    height: 17px;
+    left: 46%;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav2:hover{
+    color: #95d9cc;
+}
+.nav-vector {
+    position: absolute;
+    left: 52%;
+    top: 30px;
+    bottom: 25%;
+}
+
+
+.nav3 {
+    position: absolute;
+    width: 51px;
+    height: 17px;
+    left: 54%;
+    top: 25px;
+    font-family: 'Inter',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav3:hover{
+    color: #95d9cc;
+}
+
+
+
+.nav4 {
+    position: absolute;
+    width: 71px;
+    height: 17px;
+    left: 59%;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.nav4:hover {
+    color: #95d9cc;
+}
+
+.sfd {
+    position: absolute;
+    top: 5px;
+    left: 90%;
+    font-size: 19px;
+}
+
+
+.sfd2 {
+    position: absolute;
+    top: 5px;
+    left: 95%;
+    font-size: 19px;
+}
+.photo:hover img {
+    transform: scale(1.1);
+}
+img {
+    transition: transform 0.5s;
+}
+
+.sfd :hover {
+    color: #95d9cc;
+    transition: 0.3s;
+}
+.sfd2 :hover {
+    color: #95d9cc;
+    transition: 0.3s;
+}
+.facebook{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 70%;
+    top:15px;
+}
+.instagram{
+    position: absolute;
+     height: 35px;
+     width: 35px;
+     left: 72%;
+    top:15px;
+ }
+.in{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 74%;
+    top:15px;
+}
+.youtube{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 76%;
+    top:15px;
+}

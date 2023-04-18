@@ -4,8 +4,11 @@ body {
     left: 5.07%;
     right: 5.07%;
     top: 0;
-    width: 100%;
+    max-width: 100%;
     background-color: #ffffff;
+}
+main{
+    max-width: 100%;
 }
 .text-title{
     Display: flex;
