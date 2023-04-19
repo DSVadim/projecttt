@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/header.css"><link>
     <link rel="stylesheet" href="assets/css/Allproduct.css"><link>
     <link rel="stylesheet" href="assets/css/Swiper.css"><link>
-    <link rel="stylesheet" href="assets/css/a.css"><link>
+    <link rel="stylesheet" href="assets/css/video.css"><link>
 
 </head>
 <body>
@@ -45,6 +45,7 @@
             <img src="assets/css/img/buy.png" alt="buy"></a>
     </div>
 </header>
+<main class="main">
 <swiper-container class="mySwiper" navigation="true">
     <swiper-slide> <h2 class="section1-title">The new phones are here take a look.</h2>
         <p class="section1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
@@ -59,21 +60,25 @@
     <p class="text-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
 </div>
 <main class="main">
-<div  class="all product">
-   <a href="Laptop.html"> <div class="mac">
+
+<section  class="all product">
+   <a href="Laptop.html">
+       <div class="mac">
        <img class="strila" src="assets/css/img/strilka.svg" alt="strilka">
         <h2 class="title1">Laptop</h2>
         <p class="text1">True Laptop Solution</p>
         <img class="macbook" src="assets/css/img/macbook.png" alt="macbook">
     </div>
    </a>
-    <a href="Phone.html"><div id="all"   class="iphone">
+    <a href="Phone.html">
+        <div id="all"   class="iphone">
         <img class="strila1" src="assets/css/img/strilka.svg" alt="strilka">
         <h2 class="title2">Phones</h2>
         <p class="text2">Your day to day life</p>
         <img class="iphone1" src="assets/css/img/iphone1.png" alt="iphone">
     </div></a>
-   <a href="Tablet.html"> <div class="tablet">
+   <a href="Tablet.html">
+       <div class="tablet">
        <img class="strila2" src="assets/css/img/strilka.svg" alt="strilka">
         <h2 class="title3">Tablet</h2>
         <p class="text3">Empower your work</p>
@@ -87,7 +92,15 @@
         <img class="watch" src="assets/css/img/watch.png" alt="watch">
     </div>
     </a>
-</div>
+    <div id="video1">
+        <video src="assets/css/img/video.mp4" controls>
+        </video>
+        <a class="video3" href="airpods.html">Learn more</a>
+        <a href="airpods.html"> <img class="strila4" src="assets/css/img/strilka.svg" h alt="strilka" ></a>
+    </div>
+</section>
+
+    <section class="card">
 <div class="textx">
     <h2 class="text-title2">Save on our most selled items.</h2>
     <p class="text-text2">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
@@ -124,10 +137,14 @@
     <p class="textipad2">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
     <p class="textipad3">$ 609.00 USD</p>
 </div>
+    </section>
+
+    <section class="card2">
 <div class="tatle6">
     <h2 class="title6">See the best around here</h2>
     <p class="text7">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
 </div>
+
 <div class="titles">
     <img class="apple" src="assets/css/img/add.png" alt="apple">
    <a href="Watch.html"> <button class="button"> <span class="buttontext">Explore</span></button></a>
@@ -146,6 +163,9 @@
 <h2 class="title9">Smart light bulb pack</h2>
 <p class="text10">Every product</p>
 </div>
+    </section>
+
+    <section class="seeall">
 <div class="titlesssss">
 <h2 class="title10">Ideas have a place here</h2>
 <p class="text11">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
@@ -163,7 +183,9 @@
     <p class="text16">See All</p>
     <img class="vectorr" src="assets/css/img/vectorr.png" alt="vektorr">
 </div>
-<div  class="titles3">
+    </section>
+
+<section class="titles3">
     <h2 class="title11">Looking for anything else?</h2>
     <form class="seakh">
 <input id="sea" class="saekh" type="search" placeholder="Search">
@@ -184,7 +206,8 @@
         <input class="batton7" type="button" value="Laptop">
         <input class="batton8" type="button" value="Mobile">
     </form>
-</div>
+    </section>
+    <section class="email">
 <div id="oll" class="con">
     <form class="form">
         <input class="label" type="email" placeholder="Your email"  >
@@ -194,6 +217,7 @@
     <p class="text17"> Sign up for texts to be notified about our best offers on the perfect gifts.</p>
     <img class="fotonus" src="assets/css/img/fotonus.png" alt="fotonus">
 </div>
+    </section>
 </main>
 <footer class="con2">
     <img class="vadv" src="assets/css/img/vadv.png" alt="vadv">
@@ -223,17 +247,9 @@
     <a class="text31" href="https://www.linkedin.com/">Linkedln</a>
     <a href="https://www.youtube.com/"  class="text32">You Tube</a>
 </footer>
-<div id="video1">
-    <video src="assets/css/img/video.mp4" controls>
-    </video>
-    <div class="video2">
-        <H1>AirPods Pro</H1>
 
-    </div>
-    <a class="video3" href="airpods.html">Learn more</a>
-    <a href="airpods.html"> <img class="strila4" src="assets/css/img/strilka.svg" h alt="strilka" ></a>
-</div>
 <script src="jquery-3.6.3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</main>
 </body>
 </html>

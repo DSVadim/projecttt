@@ -1,15 +1,29 @@
 
 body {
-    height: 80px;
+    height: 10%;
     left: 5.07%;
     right: 5.07%;
     top: 0;
     max-width: 100%;
     background-color: #ffffff;
 }
-main{
+
+@media screen and (max-width: 1080px) {
+    body {
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 20%;
+    }
+}
+
+main {
     max-width: 100%;
 }
+
 .text-title{
     Display: flex;
     Justify-content: center;
