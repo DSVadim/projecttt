@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Support</title>
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/Support.css">
+</head>
+<body>
+<header class="header">
+  <nav>
+    <a class="photo" href="/index.html"><img src="/assets/css/img/logo.png"></a>
+  </nav>
+</header>
+<main>
+  <h2>Зв'язатися з нами</h2>
+  <p>Залиште повідомлення тут:</p>
+
+  <form action="process_form.php" method="post">
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Електронна пошта:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Надіслати">
+  </form>
+</main>
+
+</body>
+</html>

@@ -5,7 +5,7 @@ body {
     right: 5.07%;
     top: 0;
     max-width: 100%;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 1080px) {
@@ -1255,4 +1255,8 @@ main {
     left:57%;
     top: 90%;
     fill: white;
+}
+.img1{
+    height: 210px;
+    width: 300px;
 }

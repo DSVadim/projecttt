@@ -10,6 +10,11 @@ header {
     height: 80px;
     max-width: 100%;
     background-color: #b8c4d9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .photo {
