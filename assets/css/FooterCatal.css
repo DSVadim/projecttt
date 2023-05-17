@@ -1,9 +1,9 @@
 .con2{
     position: absolute;
-    height: 378px;
+    height: 178px;
     width:100%;
     padding: 15px 15px;
-    top: 4935px;
+   margin-top: 5%;
 
     background: #ffffff;
     border-radius: 0px;
@@ -317,6 +317,40 @@
     left: 1370px;
     right: 165px;
     top: 165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 127% */
+
+
+    color: #000000;
+}
+.flw{
+    position: absolute;
+    height: 28px;
+    left: 1370px;
+    right: 165px;
+    top: 25px;
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+}
+.text33{
+    position: absolute;
+    height: 22px;
+    left: 695px;
+    right: 883px;
+    top: 195px;
 
     font-family: 'Inter';
     font-style: normal;

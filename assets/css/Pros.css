@@ -17,6 +17,7 @@
     height: 600px;
 }
 .product{
+    margin-top: 50px;
     width: 600px;
     height: 700px;
     background-color: #DCE5E2;
@@ -29,4 +30,12 @@
     height: 450px;
     width: 800px;
     margin-left: -100px;
+}
+.textcalalog{
+    margin-top: -650px;
+    margin-left: 55%;
+}
+ul{
+    font-size: 32px;
+    margin-left: -52%;
 }
