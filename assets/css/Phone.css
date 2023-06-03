@@ -759,7 +759,7 @@
 }
 .iphone11{
     position: absolute;
-    width: 247px;
+    width: 227px;
     height: 254px;
     left: calc(50% - 247px/2);
     top: 5px;
@@ -834,9 +834,9 @@
 }
 .iphone11pro{
     position: absolute;
-    width: 247px;
+    width: 327px;
     height: 214px;
-    left: calc(50% - 247px/2);
+    left: calc(50% - 327px/2);
     top: 25px;
 
     background: url(.png);

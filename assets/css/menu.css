@@ -1,0 +1,23 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 46%;
+    top: 25px;
+    color: black;
+}
+.dropdown-child {
+    margin-top: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.29);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

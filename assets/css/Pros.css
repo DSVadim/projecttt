@@ -13,11 +13,11 @@
     border: 1px solid black;
 }
 .img{
-    width: 600px;
+    width: 550px;
     height: 600px;
 }
 .product{
-    margin-top: 50px;
+    margin-top:80px;
     width: 600px;
     height: 700px;
     background-color: #DCE5E2;
@@ -31,6 +31,12 @@
     width: 800px;
     margin-left: -100px;
 }
+.img4{
+    height: 550px;
+    width: 800px;
+    margin-left: -100px;
+}
+
 .textcalalog{
     margin-top: -650px;
     margin-left: 55%;
